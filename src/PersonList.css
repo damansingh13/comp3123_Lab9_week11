@@ -1,0 +1,94 @@
+.user-list-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: orangered;
+    color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%; /* Full width for header */
+    text-align: center; /* Center the text */
+}
+
+.user-section {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    align-items: flex-start; /* Align items to the top */
+    background-color: #87CEFA; /* Sky blue background color */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure the section is full width */
+}
+
+.section-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Add some space below the header */
+    flex: 1; /* Allow the header to take up available space */
+}
+
+.separator-line {
+    border: 0;
+    height: 1px;
+    background-color: #e5e7eb;
+    width: 100%; /* Full width to match the user section */
+    margin: 0; /* Remove default margins */
+}
+
+.profile-container {
+    display:inline-flex;
+    margin-left: -50%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 180px; /* Increased size */
+    height: 180px; /* Increased size */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.detail-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.detail-button:hover {
+    background-color: #2563eb;
+}
+
+.user-details {
+    margin-top: 3%;
+    flex: 2; /* Allow details to take up more space */
+    text-align: left;
+}
+
+.user-details h2 {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color: #1f2937;
+}
+
+.user-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #4b5563;
+}
